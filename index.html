@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perpustakaan Online</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div style="margin: auto; width: 900px">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" style="font-family: Forte">
+              <img src="logo-unaki-220.png" style="height: 50px" />
+              <br />Perpustakaan UNIVERSITAS AKI
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-house-fill"
+                  viewBox="0 0 16 16"
+                  style="margin-right: 5px"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+                  /></svg
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-in-right"
+                  viewBox="0 0 16 16"
+                  style="margin-right: 5px"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                  /></svg
+                >LOGOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="currentColor"
+                  class="bi bi-tools"
+                  viewBox="0 0 16 16"
+                  style="margin-right: 5px"
+                >
+                  <path
+                    d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"
+                  /></svg
+                >MODIFIKASI</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="card">
+      <div class="column">
+        <div style="width: 35%">
+          <div class="navigation-card">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <table width="300px">
+              <tr>
+                <td>
+                  <h3 class="menu">BUKU TERPOPULER</h3>
+                  <a href="#" style="text-decoration: none; color: black"
+                    >PEMROGRAMAN DASAR</a
+                  >
+                  <hr />
+                  <a href="#" style="text-decoration: none; color: black"
+                    >DATABASE</a
+                  >
+                  <hr />
+                  <a href="#" style="text-decoration: none; color: black"
+                    >DESAIN WEB</a
+                  >
+                  <hr />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="navigation-card" style="margin-top: 50px; height: 200px">
+            <table width="300px">
+              <tr>
+                <td>
+                  <h3 class="menu">KATEGORI BUKU</h3>
+                  <a href="#" style="text-decoration: none; color: black"
+                    >Pemrograman Python</a
+                  >
+                  <hr />
+                  <a href="#" style="text-decoration: none; color: black"
+                    >HTML dan CSS</a
+                  >
+                  <hr />
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="navigation-card" style="margin-top: 50px; height: 150px">
+            <table width="300px">
+              <tr>
+                <td>
+                  <h3 class="menu" style="font-size: 15px">
+                    BUKU YANG BARU DITAMBAHKAN
+                  </h3>
+                  <a href="#" style="text-decoration: none; color: black"
+                    >Buku Modul (1)</a
+                  >
+                  <hr />
+                  <a href="#" style="text-decoration: none; color: black"
+                    >Novel (3)</a
+                  >
+                  <hr />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="header">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="https://cdn1-production-images-kly.akamaized.net/QucUsHT603jc3c-xIqRt1xSdYiU=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3245050/original/031924900_1600748267-pexels-wallace-chuck-3728084.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://jagokata.com/images/upload/tyas-effendi-membaca-novel-terjemahan-itu-sama-aja-dengan-makan-jeruk.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://cdn1-production-images-kly.akamaized.net/gSC6NbS-BBANJeymcxv3gOF7n8g=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2785580/original/040282500_1556002609-iStock-899906832.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span></button
+            ><br />
+            <div>
+              <h1 style="font-family: Britannic Bold; font-size: 20px">
+                SELAMAT DATANG!!
+              </h1>
+              <p style="font-family: Vivaldi; font-size: 40px">
+                Gemar Membaca Wujudkan Cita
+              </p>
+            </div>
+            <br />
+            <div>
+              <h1
+                style="
+                  font-size: 20px;
+                  text-align: center;
+                  background-color: bisque;
+                "
+              >
+                DAFTAR BUKU
+              </h1>
+              <div class="content">
+                <div class="card1">
+                  <img
+                    src="https://ebooks.gramedia.com/ebook-covers/43619/image_highres/ID_DDAO2018MTH08DDAO.jpg"
+                    width="100"
+                    height="150"
+                  />
+                  <p>Database Design</p>
+                </div>
+                <div class="card1">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJnPgl-RRz3m_0nqoamQT_mCzvbztCrQEMhQ&usqp=CAU"
+                    width="100"
+                    height="150"
+                  />
+                  <p>Pengantar Teknologi Informatika</p>
+                </div>
+                <div class="card1">
+                  <img
+                    src="https://elibrary.bsi.ac.id/assets/images/buku/203402.jpeg"
+                    width="100"
+                    height="150"
+                  />
+                  <p>Desain Web</p>
+                </div>
+                <div class="card1">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC39HA4SHORGtVXQHcrZGQJnEwyCL4dpixvQ&usqp=CAU"
+                    width="100"
+                    height="150"
+                  />
+                  <p>Pemrograman Dasar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <h1 style="text-align: center; font-size: 20px">
+          copyright @ 2022 Universitas AKI
+        </h1>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
